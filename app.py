@@ -23,8 +23,8 @@ if st.button("Predict"):
     result = model.predict(data)
 
     if result[0] == 1:
-        st.error("⚠️ Alzheimer's Disease Detected")
+        st.error("Alzheimer's Disease Detected")
         st.write("Please consult a doctor immediately")
     else:
-        st.success("✅ No Alzheimer's Disease Detected")
+        st.success(" No Alzheimer's Disease Detected")
         st.write("Patient appears healthy")
