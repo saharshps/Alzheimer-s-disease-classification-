@@ -8,6 +8,4 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
-*.csv
-*.joblib
-*.pkl
+
